@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://octopress.dev/blog/2013/07/03/hello/</loc>
+        <lastmod>2013-07-03T14:50:09-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://octopress.dev/blog/2013/07/03/ahoy/</loc>
+        <lastmod>2013-07-03T14:50:43-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://octopress.dev/blog/2013/07/03/lorem-is-great/</loc>
+        <lastmod>2013-07-03T14:49:13-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://octopress.dev/blog/2013/07/03/rock-this-way/</loc>
+        <lastmod>2013-07-03T14:49:23-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://octopress.dev/blog/2013/07/03/test/</loc>
+        <lastmod>2013-07-03T14:49:01-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://octopress.dev/blog/archives/</loc>
+        <lastmod>2013-07-03T14:50:43-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://octopress.dev/</loc>
+        <lastmod>2013-07-03T14:50:43-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://octopress.dev/robots.txt</loc>
+        <lastmod>2013-07-02T15:48:16-04:00</lastmod>
+    </url>
+</urlset>

@@ -1,0 +1,423 @@
+@import url('bootstrap.css');
+@import url('bootstrap-responsive.css');
+
+/* Top Bar */
+
+#topbar {
+background: #0d3967;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#204973', endColorstr='#0c355f');
+background: -webkit-gradient(linear, left top, left bottom, from(#204973), to(#0c355f));
+background-image: linear-gradient(to bottom, #204973, #0c355f);
+color: #FFF;
+box-shadow: 0 1px 2px #666;
+margin-bottom: 1em;
+}
+
+#topbar ul {
+margin: 0 auto;
+padding: 0;
+display: block;
+position: relative;
+}
+
+#topbar li {
+list-style: none;
+display: inline;
+margin: 0;
+line-height: 2em;
+padding: 0;
+font-size: 14px;
+}
+
+#topbar a {
+color: #fff;
+text-decoration: none;
+line-height: 2em;
+display: inline-block;
+padding: 0 10px;
+text-shadow: 0 2px 0 #000;
+}
+
+#topbar a:hover {
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0c355f', endColorstr='#204973');
+background: -webkit-gradient(linear, left top, left bottom, from(#0c355f), to(#204973));
+background-image: linear-gradient(to bottom, #0c355f, #204973);
+}
+
+#topbar li.donate {
+line-height: 2em;
+text-align: right;
+position: absolute;
+right: 0;
+}
+
+#topbar li.donate a {
+background: #ff5b00;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe7f38', endColorstr='#ff5b00'); /* for IE */
+background: -webkit-gradient(linear, left top, left bottom, from(#fe7f38), to(#ff5b00)); /* for webkit browsers */
+background-image: linear-gradient(to bottom, #fe7f38, #ff5b00);
+}
+
+#topbar li.donate a:hover {
+background: #ff5b00;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5b00', endColorstr='#fe7f38'); /* for IE */
+background: -webkit-gradient(linear, left top, left bottom, from(#ff5b00), to(#fe7f38)); /* for webkit browsers */
+background-image: linear-gradient(to bottom, #ff5b00, #fe7f38);
+}
+
+/* */
+
+img {
+	border: 0 none;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+a#logo {
+	color: #000;
+	text-decoration: none;
+}
+
+a#snlogo img {
+	padding-top: 45px;
+	padding-right: 5px;
+}
+
+.navbar-inverse .navbar-inner {
+	background-image: linear-gradient(to bottom, #444444, #111111);
+	border: 0;
+}
+
+/* Features on Home Page */
+
+.carousel {
+	margin-bottom: 0;
+}
+
+.featurettes {
+	border: 1px solid #ddd;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.055);
+	border-radius: 0.5em;
+	overflow: hidden;
+	background: #fff;
+	padding: 0;
+	margin: 0 0 2em 0;
+}
+
+.featurettes .feature_text,
+.featurettes .features_buttons {
+	padding: 0 1em;
+}
+
+.featurettes a { color: #000; }
+
+.featurettes .author {
+	height: 50px;
+	background: #eee;
+	margin: 0;
+	padding: 0;
+}
+.featurettes .author img {
+	height: 50px;
+	margin: 0 0.5em 0 0;
+	float: left;
+}
+.featurettes .author p {
+	line-height: 52px;
+	margin-bottom: 0;
+}
+.featurettes a .author * {
+	color: #000;
+}
+
+.featurettes div.title {
+	position: relative;
+}
+.featurettes div.title h3{
+	background: #000;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
+    padding: 15px;
+    margin: -2em -0.6em 0.5em -0.6em;
+    line-height: 1;
+    right: 0;
+}
+	.featurettes div.title h3 {
+		padding: 13px 15px;
+	}
+.featurettes div.title h3 a { color: #fff;}
+
+form.ask-a-scientist textarea { width: 90%; }
+
+.thumbnail .text { margin: 0 0.5em;}
+
+/* Articles */
+
+.article .header p {
+	color: #666;
+}
+
+.article img.feature { 
+	width: inherit;
+	border-radius: 1em;
+	margin: 0 0 1.5em 0;
+}
+
+.article iframe.feature {
+	width: 100%;
+	margin: 0 0 1.5em 0;
+	background: none;
+	border: 0;
+	border-radius: 1em;
+	overflow: hidden;
+}
+
+.article .cam {
+	width: 100%;
+	margin: 0 0 1.5em 0;
+	background: none;
+	border: 0;
+	border-radius: 1em;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+}
+
+.article .cam#quillan_box {
+	background-image: url('../images/quillan.jpg');
+}
+
+.article .cam#ramsey_box {
+	background-image: url('../images/ramsey.jpg');
+}
+
+.article .cam#turtle_box {
+	background-image: url('../images/turtle.jpg');
+}
+
+/* Bios */
+
+.bio .header p {
+	color: #666;
+}
+
+.bio img.feature { 
+	width: inherit;
+	border-radius: 1em;
+	margin: 0 0 1em 0;
+}
+
+/* Categories */
+
+.category_header {
+	height: 9em;
+	background: #333;
+	background-position: center;
+	border-radius: 1em;
+	margin-bottom: 1.5em;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	box-shadow: 0 0 2px #999;
+}
+
+.category_header h1 {
+	padding: 0.4em 0.75em;
+	color: #fff;
+	text-shadow: 0 0 2px #000;
+}
+
+.biology .category_header {
+	background-image: url('../images/biology.jpg');
+}
+.biology .category_header h1 small { color: #eee; }
+
+.nature .category_header {
+	background-image: url('../images/nature.jpg');
+}
+.nature .category_header h1 small { color: #eee; }
+
+.physiology .category_header {
+	background-image: url('../images/physiology.png');
+	background-position: center right;
+	background-color: #000;
+}
+
+#space .category_header {
+	background-image: url('../images/space.jpg');
+}
+#space .category_header h1 small { color: #eee; }
+
+#qa .category_header {
+	background-image: url('../images/blueprint.png');
+}
+#qa .category_header h1 small { color: #eee; }
+
+#chemistry .category_header {
+	background-image: url('../images/chemistry.jpg');
+}
+#chemistry .category_header h1 small { color: #000; text-shadow: 0 0 2px #fff;}
+
+
+#earth .category_header {
+	background-image: url('../images/greatlakes.jpg');
+}
+#earth .category_header h1 { color: #fff; text-shadow: 0 0 2px #000;}
+#earth .category_header h1 small { color: #fff; text-shadow: 0 0 2px #000;}
+
+.technology .category_header {
+	background-color: #fff;
+	background-image: url('../images/technology.png');
+	background-position: center right;
+	border: 1px solid #ccc;
+}
+.technology .category_header h1 { color: #000; text-shadow: 0 0 2px #fff;}
+.technology .category_header h1 small { color: #333; }
+
+.thumbnails .author {
+	height: 50px;
+	background: #eee;
+	margin: 0;
+	padding: 0;
+}
+.thumbnails .author img {
+	height: 50px;
+	margin: 0 0.5em 0 0;
+	float: left;
+}
+.thumbnails .author p {
+	line-height: 52px;
+	margin-bottom: 0;
+}
+.thumbnails a .author * {
+	color: #000;
+}
+
+.thumbnails .author-mini {
+	position: relative;
+}
+
+.thumbnails .author-mini img {
+	height: 35px;
+	border-radius: 0.25em;
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	box-shadow: 0 0 2px #666;
+}
+
+.thumbnails div.title {
+	position: relative;
+}
+.thumbnails div.title h3,
+.thumbnails div.title h4 {
+	background: #000;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
+    padding: 15px;
+    margin: -2.4em 0 0 0;
+    line-height: 1;
+    right: 0;
+}
+	.thumbnails div.title h4 {
+		padding: 13px 15px;
+	}
+.thumbnails div.title h3 a,
+.thumbnails div.title h4 a { color: #fff;}
+.thumbnails .text {
+	position: relative;
+	padding-top: 0.5em;
+}
+
+.span3 .thumbnail h4 {
+	background: #000;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 1);
+    padding: 7px 15px;
+    margin: -8px -7px 0 -7px;
+    line-height: 1;
+    right: 0;
+}
+	.thumbnails .span3 a,
+	.thumbnails .span3 a .thumbnail h4 { color: #fff; text-decoration: none;}
+
+.pagination { 
+text-align: center;
+}
+
+.tag_cloud ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.tag_cloud li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+	.tag_cloud li.tag1 { font-size: 0.8em; }
+	.tag_cloud li.tag2 { font-size: 1em; }
+	.tag_cloud li.tag3 { font-size: 1.2em; }
+	.tag_cloud li.tag4 { font-size: 1.4em; }
+	.tag_cloud li.tag5 { font-size: 1.6em; }
+	.tag_cloud li.tag6 { font-size: 1.6em; font-weight: bold;}
+
+.social-bookmarks {
+	float: right;
+	padding-top: 0.5em;
+}
+	.fb, .twitter { float: left; margin-left: 1em;}
+	.twitter { margin-top: -1px; }
+
+.highlight {
+	background: yellow;
+	font-weight: bold;
+}
+
+.byline p {
+	color: #777;
+}
+
+.article img.author {
+	width: 100px;
+	height: auto;
+	border-radius: 0.35em;
+	margin: 0 1em 0.5em -120px;
+	box-shadow: 0 0 2px #999;
+}
+
+.articles .thumbnail {
+	padding: 0;
+	overflow: hidden;
+}
+
+#follow img {
+	width: 50px !important;
+	height: 50px !important;
+	border-radius: 0.3em;
+}
+
+[class^="icon-"], 
+[class*=" icon-"] {
+	background-image: url("../images/glyphicons-halflings.png");
+}
+
+h4.topic-list {
+	margin-bottom: 0.5em;
+	font-size: 14px;
+	background: #000;
+	background: -moz-linear-gradient(top, #666, #000);
+	color: #fff;
+	padding: 0.25em 0.5em;
+	border-radius: 0.25em;
+}
+
+ul.topic-list {
+	margin: 0;
+	padding: 0;
+}
+
+ul.topic-list li {
+	list-style: none;
+	font-size: 12px;
+	padding: 0 0 0 6px; 
+}
