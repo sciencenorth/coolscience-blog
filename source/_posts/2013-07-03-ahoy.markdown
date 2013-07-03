@@ -1,8 +1,11 @@
 ---
+published: true
 layout: post
-title: "ahoy"
-date: 2013-07-03 14:49
+title: ahoy
+date: "2013-07-03 14:49"
 comments: true
-categories: 
-img: "/images/greatlakes.jpg"
+categories: null
+img: /images/greatlakes.jpg
 ---
+
+sdgdfgfdfsds
