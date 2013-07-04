@@ -9,10 +9,10 @@ You probably don't want to clone this repo for any high-end work. We're making z
 
 ## Setup Instructions
 
-0. Install all the usual ruby/rails prerequisites. We're running Ruby 2.0 and Rails 4.0.0. If you're running other versions, your mileage may vary.
+0. Install all the usual [ruby/rails prerequisites](http://rubyonrails.org/download). We're running Ruby 2.0 and Rails 4.0.0. If you're running other versions, your mileage may vary.
 
 1. Clone this repository using your method of choice.
 
 2. From your command line, run 'bundle install' from the project root.
 
-3. From your command line, run 'rails server'. The blog should be up and running on your local machine at http://localhost:3000. (Alternate suggestion: Look into POW. It's our preferred server setup for development.)
+3. From your command line, run 'rails server'. The blog should be up and running on your local machine at [http://localhost:3000](http://localhost:3000). (Alternate suggestion: Look into POW. It's our preferred server setup for development.)
